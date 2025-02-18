@@ -1,0 +1,25 @@
+{
+  "name": "todo-app-backend",
+  "version": "1.0.0",
+  "description": "## Endpoints",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "Pablo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "express.js": "^1.0.0",
+    "mongoose": "^8.7.0",
+    "nodemon": "^3.1.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
