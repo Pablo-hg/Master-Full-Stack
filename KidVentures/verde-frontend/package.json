@@ -1,0 +1,45 @@
+{
+  "name": "verde-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prod": "vite preview --port $PORT --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@hassanmojab/react-modern-calendar-datepicker": "^3.1.7",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.3",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.7",
+    "daisyui": "^4.12.13",
+    "esbuild": "^0.24.2",
+    "mapbox-gl": "^3.8.0",
+    "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.2",
+    "react-icons": "^5.3.0",
+    "react-modern-calendar-datepicker": "^3.1.6",
+    "react-multi-date-picker": "^4.5.2",
+    "react-router-dom": "^6.27.0",
+    "socket.io-client": "^4.8.1",
+    "tailwindcss": "^3.4.13",
+    "tinypng": "^0.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "vite": "^6.0.7"
+  }
+}

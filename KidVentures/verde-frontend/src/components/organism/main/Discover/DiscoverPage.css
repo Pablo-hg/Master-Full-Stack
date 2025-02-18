@@ -1,0 +1,10 @@
+.mapboxgl-popup-content {
+  width: max-content;
+  left: -105px;
+}
+.mapboxgl-popup-content img {
+  max-height: 135px;
+}
+.mapboxgl-popup-close-button {
+  font-size: 24px;
+}
